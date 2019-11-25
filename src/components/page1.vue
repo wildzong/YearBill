@@ -14,9 +14,8 @@ export default {
     }
   },
   methods: {
-    nextP() {
-      document.getElementById("transition").name = "slide-fade"
-      this.$router.push("/page2")
+    nextP () {
+      this.$router.push('/page2')
     }
   }
 }
